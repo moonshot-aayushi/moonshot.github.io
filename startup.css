@@ -1,0 +1,67 @@
+body{
+	background-image: url(spacey.jpg);
+	background-size: 100% 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	color: white;
+	background-color: rgba(145, 50, 170, 0.6);
+	border-right: 3px solid pink;
+	border-bottom: 5px solid pink;
+	padding-right: 4px;
+	box-shadow: 5px 8px 10px white;
+	font-family: 'Amatic SC', cursive;
+	margin: 20% auto;
+}
+button, input{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20% auto;
+}
+.b1{
+	padding: 20px;
+	margin-right: 10px;
+	background-color: rgba(255, 55, 90, 0.5);
+	border-radius: 40px;
+}
+.b2{
+	padding: 20px;
+	margin-left: 10px;
+	background-color: rgba(255, 55, 90, 0.5);
+	border-radius: 40px;
+}
+.b1:hover{
+	padding: 24px;
+	background-color: pink;
+	border-radius: 60px;
+	transition: 0.5s ease-in-out;
+
+}
+.b2:hover{
+	padding: 24px;
+	background-color: pink;
+	border-radius: 60px;
+	transition: 0.5s ease-in-out;
+}
+h1:hover{
+	cursor: pointer;
+	font-size: 30px;
+	transition: 2s ease-in-out;
+	transform: scale(1.5);
+}
+div{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin: 20% auto;
+}
